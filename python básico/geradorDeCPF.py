@@ -13,7 +13,7 @@ for index in range(19):
     if reverso < 2:
         reverso = 11
         digito = 11 - (total % 11)
-
+        
         if digito > 9:
             digito = 0
         novo_cpf += str(digito)
