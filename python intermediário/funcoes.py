@@ -116,7 +116,7 @@ print()
 def funcao4(*args, **kwargs):
     print(args)
     
-    # é bo usar get quando não se tem certeza se determinada chave existe ou não
+    # é bom usar get quando não se tem certeza se determinada chave existe ou não
     marca = kwargs.get('marca')
     print(marca)
 
