@@ -87,3 +87,47 @@ def funcao(*args):
         print(value)
 
 funcao(1, 2, 3, 4, 5)
+
+print()
+
+
+def funcao2(*args):
+    print(args)
+
+lista = [1, 2, 3, 4, 5]
+funcao2(*lista)
+
+print()
+
+
+# **kwargs argumentos com palavras chave
+def funcao3(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+array = [1, 2, 3, 4]
+array2 = [5, 6, 7, 8]
+
+funcao3(*array, *array2, nome = 'claudio', sobre_nome = 'dantas')
+
+print()
+
+
+def funcao4(*args, **kwargs):
+    print(args)
+    
+    # é bo usar get quando não se tem certeza se determinada chave existe ou não
+    marca = kwargs.get('marca')
+    print(marca)
+
+    preco = kwargs.get('preco')
+
+    if preco is not None:
+        print(preco)
+    else:
+        print('preco nao existe')
+
+funcao4('deez', 'nuts', marca = 'nissan', modelo = 'gtr-r35')
+
+
+    
