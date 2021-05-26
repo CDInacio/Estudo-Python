@@ -20,7 +20,7 @@ for n in lista:
         palavra = n
 print(f'a palavra que apareceu mais foi {palavra}, que apareceu {contagem}x')
 
-#---------------------------------------
+
 
 # JOIN
 nome = 'claudio vitor dantas da silva inacio'
@@ -28,7 +28,7 @@ nome_lista = nome.split(' ')
 novo_nome = ','.join(nome_lista)
 print(novo_nome)
 
-#---------------------------------------
+
 
 # ENUMERATE
 for key, value in enumerate(nome_lista):
