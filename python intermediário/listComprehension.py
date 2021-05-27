@@ -1,4 +1,14 @@
 # List Comprehension é uma forma concisa de criar e manipular listas.
+produtos = [
+    {'nome': 'produto1', 'preco': 10},
+    {'nome': 'produto2', 'preco': 20.90},
+    {'nome': 'produto3', 'preco': 40},
+    {'nome': 'produto4', 'preco': 50.99},
+    {'nome': 'produto5', 'preco': 70.50},
+    {'nome': 'produto6', 'preco': 10},
+    {'nome': 'produto7', 'preco': 5.99},
+    {'nome': 'produto8', 'preco': 57}
+]
 
 lista1 = [1, 2, 3, 4, 5]
 lista2 = ['claudio', 'vitor', 'dantas']
@@ -23,3 +33,11 @@ print(exp5)
 exp6 = [value for value in lista1 if value % 2 == 0]
 print(exp6)
 
+ # pegando elementos maires que 3
+exp7 = [value for value in lista1 if value > 3]
+print(exp7)
+
+# pegando produtos que custam mais que 10 reais
+exp8 = [value for value in produtos if value['preco'] > 10]
+for value in exp8:
+    print(value)
