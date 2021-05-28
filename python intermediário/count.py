@@ -6,5 +6,5 @@ contador = count(start=23, step=2)
 for value in contador:
     print(value)
 
-    if(value > 100):
+    if value > 100:
         break
