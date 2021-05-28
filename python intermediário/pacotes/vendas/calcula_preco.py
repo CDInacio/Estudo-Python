@@ -1,6 +1,8 @@
-def aumento():
-    pass
+def aumento(valor, porcentagem):
+    res = valor + (valor * porcentagem / 100)
+    return res
 
 
-def reducao():
-    pass
+def reducao(valor, porcentagem):
+    res = valor - (valor * porcentagem / 100)
+    return res
