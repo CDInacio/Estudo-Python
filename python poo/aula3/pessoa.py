@@ -1,4 +1,3 @@
-# métodos estáticos
 # Um método estático é um método que pode ser chamado sem a instancia da classe.
 
 from random import randint
