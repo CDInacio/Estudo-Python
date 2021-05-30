@@ -1,5 +1,3 @@
-# métodos de classe
-
 class Pessoa:
     # atributo de classe
     ano_atual = 2021
