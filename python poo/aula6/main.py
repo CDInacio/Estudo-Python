@@ -1,4 +1,3 @@
-# encapsulamento
 # se um atributo tiver um '_' antes do nome, recomenda-se que esse atributo não seja acessado
 # _ protected(public) -> (não recomenda o acesso, apesar de ser possivel acessar)
 # __ private -> (não acesse de jeito nenhum)
