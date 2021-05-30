@@ -1,6 +1,5 @@
 from datetime import datetime
 
-
 class Pessoa:
     # variável da classe
     ano_atual = int(datetime.strftime(datetime.now(), '%Y'))
