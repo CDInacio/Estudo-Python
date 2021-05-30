@@ -1,4 +1,4 @@
-# relação de assosiação
+# relação de assosiação entre classes
 
 from classes import Escritor
 from classes import Caneta

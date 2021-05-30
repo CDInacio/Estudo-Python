@@ -1,4 +1,4 @@
-# relação de assosiação
+# relação de assosiação entre classes
 
 class Escritor:
     def __init__(self, nome):
