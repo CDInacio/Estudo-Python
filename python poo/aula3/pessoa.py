@@ -3,6 +3,7 @@
 
 from random import randint
 
+
 class Pessoa:
     # atributo de classe
     ano_atual = 2021
@@ -30,4 +31,3 @@ p1 = Pessoa('claudio', 24)
 # o metodo pode ser chamado tanto pela instancia quanto pela classe
 print(Pessoa.gera_id())
 print(p1.gera_id())
-
