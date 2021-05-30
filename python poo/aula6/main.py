@@ -31,7 +31,6 @@ class BaseDeDados:
 bd = BaseDeDados()
 bd.inserir_cliente(1, 'claudio')
 bd.inserir_cliente(2, 'sandro')
-bd.inserir_cliente(3, 'natalia')
 bd.apaga_cliente(2)
 bd.lista_clientes()
 
