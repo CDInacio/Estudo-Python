@@ -1,5 +1,6 @@
 import json
 
+
 with open('abc3.json', 'r') as file:
     d1_json = file.read()
     # convertendo o json de volta para dicionario

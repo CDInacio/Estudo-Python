@@ -1,5 +1,6 @@
 import json
 
+
 d1 = {
     'pessoa1': {
         'nome': 'claudio',

@@ -1,5 +1,6 @@
 # um iterador vai te dar um valor de cada vez de um objeto iterável
 
+
 lista = [1, 2, 3, 4]
 
 # transformando a lista em um iterador

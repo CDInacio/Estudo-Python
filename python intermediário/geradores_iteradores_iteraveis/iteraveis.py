@@ -1,4 +1,4 @@
-#  iterável é um objeto que pode ser repetido . por exemplo, lista, string, tupla etc.
+#  iterável é um objeto que pode ser repetido . por exemplo, lista, string, tupla etc...
 
 # iterável
 lista = [1, 2, 3]

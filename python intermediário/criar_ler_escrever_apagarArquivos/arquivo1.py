@@ -29,5 +29,4 @@ file.seek(0, 0)    # chamando o cursor pra posição inicial do arquivo
 # print(file.readlines()) == for value in file:
 for value in file:  # == for value in file.readlines():
     print(value, end='')
-
 file.close()

@@ -19,10 +19,10 @@ with open('abc2.txt', 'w+') as file:
     print(file.read())
 """
 
+
 with open('abc2.txt', 'a+') as file:
     file.write('adiciona uma linha sem apagar as anteriores\n')
 
     file.seek(0)
     print(file.read())
 
-    

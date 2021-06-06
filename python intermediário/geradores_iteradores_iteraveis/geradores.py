@@ -1,7 +1,7 @@
 # Os geradores em Python são uma maneira simples de criar um objeto
 # iterável sem a necessidade de construí-lo dentro de uma classe.
 
-import sys
+
 import time
 
 # lista = list(range(1000))
