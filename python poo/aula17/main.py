@@ -17,6 +17,7 @@ with Arquivo('arquivo.txt', 'w') as file:
     file.write('alguma coisa')
 """""
 
+
 # outra forma de criar um gerenciador de contexto( sem usar classes)
 
 from contextlib import contextmanager
