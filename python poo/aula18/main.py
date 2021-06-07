@@ -25,5 +25,6 @@ p2 = Pessoa('natalia', 'paiva')
 
 print(p1 == p2)
 
+
 print(p1)
 print(p1.nome_completo())
